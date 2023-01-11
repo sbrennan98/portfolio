@@ -3,7 +3,7 @@
     <FamilyMember
       img="sean.jpg"
       name="Sean Lee Brennan"
-      desc="Sean studied computer science at Mizzou. He works at Amazon as a software development engineer. He's kinda the coolest."
+      desc="Sean studied computer science at Mizzou."
       to="/sean"
     />
     <FamilyMember
