@@ -13,7 +13,9 @@
           justify="center"
           align="center"
         >
-          <h1 class="text-h1">The Brennans</h1>
+          <h1 class="text-h1">
+            The Brennans
+          </h1>
           <FamilyMembers />
         </v-col>
       </v-row>

@@ -42,27 +42,27 @@
       >
         <v-icon>mdi-application</v-icon>
       </v-btn>
-      <v-btn
+      <!-- <v-btn
         icon
         @click.stop="fixed = !fixed"
       >
         <v-icon>mdi-minus</v-icon>
-      </v-btn>
+      </v-btn> -->
       <v-toolbar-title v-text="title" />
-      <v-spacer />
+      <!-- <v-spacer />
       <v-btn
         icon
         @click.stop="rightDrawer = !rightDrawer"
       >
         <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
     <v-main>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       v-model="rightDrawer"
       :right="right"
       temporary
@@ -78,11 +78,20 @@
           <v-list-item-title>Switch drawer (click me)</v-list-item-title>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
     <v-footer
       :absolute="!fixed"
       app
     >
+      <span>Email:&nbsp;</span>
+      <a href="mailto:sbrennan@mail.missouri.edu">sbrennan@mail.missouri.edu</a>
+      <span>&emsp;LinkedIn:&nbsp;</span>
+      <a href="https://linkedin.com/in/sbrennan98" target="_blank">linkedin.com/in/sbrennan98</a>
+      <span>&emsp;GitHub:&nbsp;</span>
+      <a href="https://github.com/sbrennan98" target="_blank">github.com/sbrennan98</a>
+      <span>&emsp;Portfolio:&nbsp;</span>
+      <a href="https://brennans.info">brennans.info</a>
+      <v-spacer />
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
@@ -95,7 +104,7 @@ export default {
     return {
       clipped: false,
       drawer: false,
-      fixed: false,
+      fixed: true,
       items: [
         {
           icon: 'mdi-home',
@@ -103,20 +112,25 @@ export default {
           to: '/'
         },
         {
+          icon: 'mdi-account',
+          title: 'Bio',
+          to: '/sean'
+        },
+        {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
-          to: '/inspire'
+          to: '/sean/inspire'
         },
         {
           icon: 'mdi-apps',
           title: 'Projects',
-          to: '/projects'
+          to: '/sean/projects'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: "Sean's Portfolio"
     }
   }
 }
