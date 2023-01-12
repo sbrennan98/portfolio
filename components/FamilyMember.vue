@@ -1,10 +1,10 @@
 <template>
   <v-card
-    elevation="2"
-    max-width="800"
+    elevation="12"
+    max-width="80vw"
     class="my-8 mx-8"
   >
-    <v-img :src="require('@/assets/' + img)" />
+    <v-img :src="require('@/assets/' + img)" max-width="800" />
     <v-card-title class="justify-center">
       {{ name }}
     </v-card-title>
@@ -24,10 +24,22 @@
 <script>
 export default {
   props: {
-    img: String,
-    name: String,
-    desc: String,
-    to: String
+    img: {
+      default: 'acacia.png',
+      type: String
+    },
+    name: {
+      default: 'Default',
+      type: String
+    },
+    desc: {
+      default: 'Default description',
+      type: String
+    },
+    to: {
+      default: '',
+      type: String
+    }
   }
 }
 </script>

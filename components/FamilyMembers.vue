@@ -1,6 +1,6 @@
 <template>
-  <v-layout column class="justify-center align-center">
-    <!-- Making use of Vue props like this gives cleaner code! -->
+  <!-- Making use of Vue props like this gives cleaner code! -->
+  <v-layout wrap column align-center justify-center>
     <FamilyMember
       img="sean.jpg"
       name="Sean Lee Brennan"

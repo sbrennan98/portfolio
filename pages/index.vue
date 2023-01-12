@@ -4,15 +4,8 @@
       src="https://insights.bcdme.com/hs-fs/hubfs/Imported_Blog_Media/Austin-ariel-view.jpg?width=3994&height=2658&name=Austin-ariel-view.jpg"
       height="auto"
     >
-      <v-row
-        justify="center"
-        align="center"
-      >
-        <v-col
-          class="text-center"
-          justify="center"
-          align="center"
-        >
+      <v-row>
+        <v-col class="text-center">
           <h1 class="text-h1">
             The Brennans
           </h1>
