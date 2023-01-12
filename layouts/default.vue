@@ -114,7 +114,7 @@ export default {
         {
           icon: 'mdi-account',
           title: 'Bio',
-          to: '/sean'
+          to: '/sean/bio'
         },
         {
           icon: 'mdi-chart-bubble',
