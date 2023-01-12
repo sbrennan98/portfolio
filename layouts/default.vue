@@ -83,16 +83,7 @@
       :absolute="!fixed"
       app
     >
-      <span>Email:&nbsp;</span>
-      <a href="mailto:sbrennan@mail.missouri.edu">sbrennan@mail.missouri.edu</a>
-      <span>&emsp;LinkedIn:&nbsp;</span>
-      <a href="https://linkedin.com/in/sbrennan98" target="_blank">linkedin.com/in/sbrennan98</a>
-      <span>&emsp;GitHub:&nbsp;</span>
-      <a href="https://github.com/sbrennan98" target="_blank">github.com/sbrennan98</a>
-      <span>&emsp;Portfolio:&nbsp;</span>
-      <a href="https://brennans.info">brennans.info</a>
-      <v-spacer />
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <SeanFooter />
     </v-footer>
   </v-app>
 </template>
