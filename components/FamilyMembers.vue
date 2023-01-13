@@ -5,7 +5,7 @@
       img="sean.jpg"
       name="Sean Lee Brennan"
       desc="Sean studied computer science at Mizzou."
-      to="/sean/bio"
+      to="/sean"
     />
     <FamilyMember
       img="maria.jpg"

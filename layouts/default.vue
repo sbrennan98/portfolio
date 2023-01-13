@@ -99,13 +99,13 @@ export default {
       items: [
         {
           icon: 'mdi-home',
-          title: 'Back to Landing Page',
+          title: 'Landing Page',
           to: '/'
         },
         {
           icon: 'mdi-account',
           title: 'Bio',
-          to: '/sean/bio'
+          to: '/sean'
         },
         {
           icon: 'mdi-chart-bubble',

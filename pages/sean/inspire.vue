@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-container>
     <v-row>
       <v-col>
         <h1>Resources</h1>
@@ -10,7 +10,7 @@
       <AlbertEinstein />
     </v-row>
     <ExpandableInfo />
-  </v-app>
+  </v-container>
 </template>
 
 <script>
