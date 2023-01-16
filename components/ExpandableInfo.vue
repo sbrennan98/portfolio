@@ -9,22 +9,22 @@
       </p>
     </v-col>
     <v-col cols="3">
-      <!-- Significantly less dry w/ Vue iterators! -->
+      <!-- Significantly less dry w/ Vue iterator directive! -->
       <v-expansion-panels multiple>
         <v-expansion-panel v-for="t in topics" :key="t.title">
-          <v-expansion-panel-header>{{ t.title }}</v-expansion-panel-header>
-          <v-expansion-panel-content>
+          <v-expansion-panel-title>{{ t.title }}</v-expansion-panel-title>
+          <v-expansion-panel-text>
             <v-expansion-panels>
               <v-expansion-panel v-for="s in t.subtopics" :key="s.title">
-                <v-expansion-panel-header @click="change(s.title, s.desc)">
+                <v-expansion-panel-title @click="change(s.title, s.desc)">
                   {{ s.title }}
-                </v-expansion-panel-header>
-                <v-expansion-panel-content @click="change(s.title, s.desc)">
+                </v-expansion-panel-title>
+                <v-expansion-panel-text @click="change(s.title, s.desc)">
                   {{ s.desc }}
-                </v-expansion-panel-content>
+                </v-expansion-panel-text>
               </v-expansion-panel>
             </v-expansion-panels>
-          </v-expansion-panel-content>
+          </v-expansion-panel-text>
         </v-expansion-panel>
       </v-expansion-panels>
     </v-col>

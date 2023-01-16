@@ -1,12 +1,13 @@
 <template>
   <v-card
-    elevation="12"
-    max-width="80vw"
-    class="my-8 mx-8"
+    class="ma-8"
     theme="dark"
+    width="100%"
+    max-width="800"
   >
-    <v-img :src="'~/public/' + img" max-width="800" />
-    <v-card-title class="justify-center">
+    <v-img :src="'/' + img" />
+    
+    <v-card-title>
       {{ name }}
     </v-card-title>
     <v-card-text>
@@ -14,8 +15,9 @@
         {{ desc }}
       </div>
     </v-card-text>
+
     <v-card-actions>
-      <v-btn :to="to">
+      <v-btn :to="to" variant="tonal">
         More About Me
       </v-btn>
     </v-card-actions>
