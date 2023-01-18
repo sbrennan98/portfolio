@@ -6,7 +6,7 @@
       <v-card-text>
         Application utilizing the Plaid API for grabbing your transaction history, classifying transaction categories, and providing data visualization.
       </v-card-text>
-      <v-btn>Open</v-btn>
+      <v-btn href="https://master.d2qc6vipnzkpc2.amplifyapp.com/">Open</v-btn>
     </v-card>
   </v-container>
 </template>
