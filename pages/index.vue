@@ -1,6 +1,6 @@
 <template>
     <v-parallax
-        src="https://insights.bcdme.com/hs-fs/hubfs/Imported_Blog_Media/Austin-ariel-view.jpg?width=3994&height=2658&name=Austin-ariel-view.jpg"
+        src="https://images.pexels.com/photos/18583619/pexels-photo-18583619.jpeg"
         height="100%"
     >
         <v-container fluid class="text-center">
