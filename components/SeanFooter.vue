@@ -4,8 +4,8 @@
       <FooterItem 
         icon="mdi-email"
         name="Email"
-        link="mailto:sbrennan@mail.missouri.edu"
-        value="sbrennan@mail.missouri.edu"
+        link="mailto:brennansean6@gmail.com"
+        value="brennansean6@gmail.com"
       />
       <FooterItem 
         icon="mdi-linkedin"
